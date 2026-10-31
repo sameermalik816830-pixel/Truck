@@ -14,7 +14,7 @@ const app = express();
 app.use(
   cors({
     // origin: (process.env.CLIENT_URL || "http://localhost:5173").split(",").map((s) => s.trim()),
-    origin:"https://vercel.app",
+    origin:"https://truck-delta-three.vercel.app/",
     credentials: true,
   })
 );
